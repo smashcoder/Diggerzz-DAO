@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "pug": "^3.0.2"
+  },
+  "name": "diggerzz-dao",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prajwaltulawe/diggerzz-dao.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prajwaltulawe/diggerzz-dao/issues"
+  },
+  "homepage": "https://github.com/prajwaltulawe/diggerzz-dao#readme",
+  "description": ""
+}
