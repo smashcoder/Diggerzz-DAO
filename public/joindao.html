@@ -1,0 +1,120 @@
+<html>
+  <head>
+    <title>Diggerzz DAO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <style>
+      html{
+        scroll-behavior:smooth;
+      }
+      body{
+        overflow:auto;
+      }
+     ul{
+          list-style-type:none;
+          overflow:hidden;
+          background-color:black;
+          margin:0;
+          padding:0;
+          font-size:30px;
+          position:fixed;
+          top:0;
+          left:0;
+          right:0;
+          width:100%;
+          font-weight:bold;
+          color:whitesmoke;
+          font-family:monospace;
+          text-decoration:none;
+        }
+        li{
+          float:left;
+          padding:10px 400px 10px 40px;
+        }
+        li:hover{
+          background-color:white;
+          color:black;
+          cursor:pointer;
+        }
+        li a{
+          text-decoration: none;
+        }
+        li a:visited{
+          background-color:black;
+          color:whitesmoke;
+          text-decoration:none;
+        }
+        li a:hover{
+          background-color:white;
+          color:black;
+          cursor:pointer;
+        }
+        .active{
+          background-color:white;
+          color:black;
+        }
+        #LFT{
+          float:left;
+        }
+        #RGT{
+          float:right;
+        }
+        .container{
+          position:relative;
+          top:10%;
+          font-family: monospace;
+          text-align:center;
+          font-size:25px;
+          margin-left:30%;
+          margin-right:30%;
+          border-radius:10%;
+          color:black;
+        }
+        button{
+          position:fixed;
+          left:95%;
+          bottom:1%;
+          background:transparent;
+          border:none;
+        }
+       input, textarea{
+         margin:30px 0px;
+         padding: 10px 50px;
+       }
+      input[type=submit]{
+        background-color:black;
+        color:whitesmoke;
+        border-radius:10px;
+        font-size:15px;
+        font-family:monospace;
+      }
+      select{
+        position:relative;
+        top:2%;
+        font-family: monospace;
+        font-size:20px;
+        margin-bottom:2%;
+      }
+    </style>
+  </head>
+  <body>
+   <ul>
+     <li id="LFT"><a href="index.html">< Back To Home</a></li>
+     <li class="active">Join DAO</li>
+    </ul>
+    <form class="container">
+      <br>Select Your Role<br>
+      <select>
+        <option id="option1" value="Archeologist">Archeologist</option>
+        <option id="option2" value="Historian">Historian</option>
+        <option id="option3" value="None">None</option>
+      </select>
+      <br>Enter Your Name<br>
+      <input type="text" id="name" placeholder="Name"><br>
+      <br>Describe Youself<br>
+      <textarea id="Yourself" placeholder="Bio" rows="10" cols="50"></textarea><br>
+      <br>Enter Your Email-ID<br>
+      <input type="text" id="ffr" placeholder=" Email-ID"><br>
+      <input type="submit" id="submit" name="Submit Button">
+    </form>
+  </body>
+</html>
