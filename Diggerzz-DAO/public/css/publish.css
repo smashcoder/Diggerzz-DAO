@@ -1,0 +1,41 @@
+.container{
+    width: auto;
+    margin: auto;
+    font-family: monospace;
+    text-align:center;
+    font-size:25px;
+    border-radius:10%;
+    color:black;
+}
+
+button{
+    position:fixed;
+    left:95%;
+    bottom:1%;
+    background:transparent;
+    border:none;
+}
+input, textarea, select{
+    margin:30px 0px;
+    padding: 10px 50px;
+    font-family:monospace;
+}
+
+input[type=submit]{
+background-color:black;
+color:whitesmoke;
+border-radius:10px;
+font-size:15px;
+font-family:monospace;
+cursor: pointer;
+}
+
+.join-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-col{
+    display: flex;
+    flex-direction: column;
+}
