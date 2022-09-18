@@ -188,3 +188,9 @@ footer img{
   width: 20px;
   cursor: pointer;
 }
+.logo{
+  float:left;
+}
+abbr{
+  text-decoration:none;
+}
