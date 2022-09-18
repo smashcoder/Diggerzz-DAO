@@ -10,6 +10,4 @@ function myalert(){
     alert("Coming Soon");
   }
 
-  function ethereumButton(){
-    ethereum.request({ method: 'eth_requestAccounts' });
-  }
+  
