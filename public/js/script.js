@@ -9,3 +9,10 @@ function myalert(){
   function mynotifier(){
     alert("Coming Soon");
   }
+
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: 'smooth',
+    });
+  };
