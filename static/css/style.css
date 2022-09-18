@@ -1,0 +1,190 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow: auto;
+}
+
+/* NAV */
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  font-weight: bold;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: monospace;
+  text-decoration: none;
+  z-index: 1;
+}
+li {
+  float: left;
+  padding: 10px 40px;
+}
+li:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+li a {
+  text-decoration: none;
+}
+li a:visited {
+  background-color: black;
+  color: whitesmoke;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.active {
+  background-color: white;
+  color: black;
+}
+
+/* BODY */
+.bdy-cointainer {
+  display: flex;
+  flex-direction: column;
+  font-family: "Amatic SC", cursive;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.section {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  padding: 4% 0;
+  border-bottom: 3px solid black;
+}
+
+.top {
+  padding: 6% 0 0 0;
+}
+
+.txt-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.center {
+  margin: auto;
+}
+
+.max-width {
+  width: 100%;
+}
+
+.low-margin {
+  margin: 0 0 2% 0;
+}
+
+.sub-txt {
+  width: 100%;
+  margin: 0 -4%;
+  font-size: 1.2rem;
+}
+
+.img-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-section img {
+  width: 400px;
+}
+
+.img-section button {
+  background-color: black;
+  color: white;
+  padding: 0 6%;
+  margin: 5% 0 0 0;
+  border-radius: 10px;
+  font-family: "Amatic SC", cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+.fbutton {
+  position: fixed;
+  left: 91%;
+  bottom: 5%;
+}
+
+.btn-bottom {
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.s3b1 {
+  font-family: "Amatic SC", cursive;
+  font-size: 50px;
+  text-align: center;
+  margin: 10px;
+  border: solid black;
+  padding: 0 2%;
+  color: black;
+  text-decoration: none;
+}
+
+.s3b1:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+
+table {
+  position: relative;
+  top: 10%;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.s3b1:hover .link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.join-btn{
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+
+footer{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family:monospace;
+  font-size: 1.2rem;
+  padding: 1% 0;
+}
+footer img{
+  width: 20px;
+  cursor: pointer;
+}
