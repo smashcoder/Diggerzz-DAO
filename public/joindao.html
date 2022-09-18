@@ -4,26 +4,53 @@
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/join.css">
     <link rel="icon" type="image/x-icon" href="favicon/Diggerzz DAO.svg">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   </head>
   <body>
-   <ul>
-     <li id="LFT"><a href="index.html">< Back To Home</a></li>
-     <li class="active">Join DAO</li>
-    </ul>
-    <form class="container">
-      <br>Select Your Role<br>
-      <select>
-        <option id="option1" value="Archeologist">Archeologist</option>
-        <option id="option2" value="Historian">Historian</option>
-        <option id="option3" value="None">None</option>
-      </select>
-      <br>Enter Your Name<br>
-      <input type="text" id="name" placeholder="Name"><br>
-      <br>Describe Youself<br>
-      <textarea id="Yourself" placeholder="Bio" rows="10" cols="50"></textarea><br>
-      <br>Enter Your Email-ID<br>
-      <input type="text" id="ffr" placeholder=" Email-ID"><br>
-      <input type="submit" id="submit" name="Submit Button">
-    </form>
+
+    <div id="mydiv"></div>
+    
+    <script type="text/babel">
+
+      function JoinDAO() {
+        return (
+
+          <>
+            <ul>
+              <li id="LFT"><a href="index.html"> Back To Home </a></li>
+              <li class="active">Join DAO</li>
+            </ul>
+
+            <form class="container">
+              
+              <br/>Select Your Role<br/>
+              <select>
+                <option id="option1" value="Archeologist">Archeologist</option>
+                <option id="option2" value="Historian">Historian</option>
+                <option id="option3" value="None">None</option>
+              </select>
+
+              <br/>Enter Your Name<br/>
+              <input type="text" id="name" placeholder="Name"/><br/>
+
+              <br/>Describe Youself<br/>
+              <textarea id="Yourself" placeholder="Bio" rows="10" cols="50"></textarea><br/>
+
+              <br/>Enter Your Email-ID<br/>
+              <input type="text" id="ffr" placeholder=" Email-ID"/><br/>
+              <input type="submit" id="submit" name="Submit Button"/>
+
+            </form>
+          </>
+
+        );
+      }
+        
+        ReactDOM.render(<JoinDAO />, document.getElementById('mydiv'))
+
+    </script>
+    
   </body>
 </html>

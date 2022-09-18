@@ -8,35 +8,61 @@
     <link rel="icon" type="image/x-icon" href="favicon/Diggerzz DAO.svg">
     <script defer src="js/script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <title>Diggerzz DAO</title>
   </head>
 
   <body>
-    <ul>
-      <li><abbr title="Diggerzz DAO"><img src="favicon/Diggerzz DAO.svg" width="36px" height="36px" alt="Diggerzz DAO" class="logo"></abbr></li>
-      <li ><a href="index.html"><abbr title="Home">Home</abbr></a></li>
-      <li><a href="#"><abbr title="DashBoard">DashBoard</abbr></a></li>
-      <li><a href="publish.html" class="active"><abbr title="Publish">Publish</abbr></a></li>
-      <li><a href="team.html"><abbr title="Team">Team</abbr></a></li>
-      <li><a><abbr title="Connect To Wallet">Connect To Wallet</abbr></a></li>
-    </ul>
+    
+    <div id="mydiv"></div>
+    <script type="text/babel">
 
-    <div class="bdy-cointainer"> 
-      <div class="section top">
-        <form class="container">
-          <br>Title of The Research<br>
-          <input type="text" id="title" placeholder="Title"><br>
-          <br>Name of the Researcher<br>
-          <input type="text" id="name" placeholder="Name"><br>
-          <br>Date of the Research<br>
-          <input type="date" id="date"><br>
-          <br>Field of Research<br>
-          <input type="text" id="ffr" placeholder=" Field of Research"><br>
-          <br>Upload File<br>
-          <input type="file" id="pr"><br>
-          <input type="submit" id="submit" name="Submit Button">
-        </form>
-      </div>
-    </div>
+        function Publish() {
+          return (
+
+            <>
+
+              <ul>
+                <li><abbr title="Diggerzz DAO"><img src="favicon/Diggerzz DAO.svg" width="36px" height="36px" alt="Diggerzz DAO" class="logo"/></abbr></li>
+                <li ><a href="index.html"><abbr title="Home">Home</abbr></a></li>
+                <li><a href="#"><abbr title="DashBoard">DashBoard</abbr></a></li>
+                <li><a href="publish.html" class="active"><abbr title="Publish">Publish</abbr></a></li>
+                <li><a href="team.html"><abbr title="Team">Team</abbr></a></li>
+                <li><a><abbr title="Connect To Wallet">Connect To Wallet</abbr></a></li>
+              </ul>
+
+              <div class="bdy-cointainer"> 
+                <div class="section top">
+                  <form class="container">
+
+                    <br/>Title of The Research<br/>
+                    <input type="text" id="title" placeholder="Title"/><br/>
+
+                    <br/>Name of the Researcher<br/>
+                    <input type="text" id="name" placeholder="Name"/><br/>
+
+                    <br/>Date of the Research<br/>
+                    <input type="date" id="date"/><br/>
+                    
+                    <br/>Field of Research<br/>
+                    <input type="text" id="ffr" placeholder=" Field of Research"/><br/>
+
+                    <input type="file" id="pr"/><br/>
+                    <input type="submit" id="submit" name="Submit Button"/>
+
+                  </form>
+                </div>
+              </div>           
+
+            </>
+
+          );
+        }
+
+        ReactDOM.render(<Publish />, document.getElementById('mydiv'))
+    </script>
+
   </body>
 </html>
