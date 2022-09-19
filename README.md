@@ -36,7 +36,7 @@ Unique Features :
  **[Click here to see how the Dapp works](https://youtu.be/kj-IvrLT-9w)**
  
  
- **Note - While the code was already tested locally during HTM 3.0, the deployment was successful afer the Hackathon**
+ **Note - While the code was already tested locally during HTM 3.0, the deployment of the Dapp using vercel was successful afer the Hackathon**
 
 
 
