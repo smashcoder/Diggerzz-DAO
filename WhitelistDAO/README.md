@@ -1,6 +1,11 @@
 # WhitelistDapp
+- Deployed DAPP :
+
+**Note - While the code was already tested locally during HTM 3.0, the deployment was successful afer the Hackathon**
+-  <a href="https://whitelist-dao-five.vercel.app/" target="_blank">WhiteList Dapp</a>
 
 Dapp for whitelisting  the early members of the DAO community, by adding their name to the whitelist to airdrop them Genesis(Ealry) contributor NFT's
+
 
 ##How it works
 
