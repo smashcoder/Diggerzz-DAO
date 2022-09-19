@@ -1,13 +1,12 @@
 # WhitelistDapp
 - Deployed DAPP :
-
 **Note - While the code was already tested locally during HTM 3.0, the deployment was successful afer the Hackathon**
--  <a href="https://whitelist-dao-five.vercel.app/" target="_blank">WhiteList Dapp</a>
+-  [Whitelist Dapp](https://whitelist-dao-five.vercel.app/?to=/placeholder.com)
 
 Dapp for whitelisting  the early members of the DAO community, by adding their name to the whitelist to airdrop them Genesis(Ealry) contributor NFT's
 
 
-##How it works
+## How it works
 
  - The smartcontract is written to allow first 10 unique addresses to join the whitelist.
  - Pay the gas fees to enter the whitelist ~ via metamask.
@@ -15,6 +14,6 @@ Dapp for whitelisting  the early members of the DAO community, by adding their n
  - The max number of whitelisted addresses allowed are 10
  - Throws an error if number of whitelisted address is greater than maximum allowed.
  
- #Contract Deployed to :
+ # Contract Deployed to :
  
   - "0xE27942Af8199431E75A5211BFE9CB07fC9b70C1c"
