@@ -27,6 +27,14 @@ Unique Features :
  - Altough we were unable to implement the ahead mentioned feature, we etched a way to limit the research NFT's mintable for every Archeologist - based on the rank of research paper attained w.r.t the voting done by the Dao members(researches and archelogists). 
 
 ---
+# Note :
+ - Make sure you have your metamask wallet before trying to test the Whitelist Dapp.
+ 
+ - Have some Goerli ETH in your wallet(Goerli Test Network).
+ 
+ - Try opening the project on your desktop.
+ 
+---
 # WhitelistDapp
 
  **[Click here to use Whitelist Dapp](https://whitelist-dao-five.vercel.app/?to=/placeholder.com)**
